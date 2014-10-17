@@ -1,0 +1,11 @@
+<ruleset comparisonMethod="maven">
+  <rules>
+    <rule groupId="org.kaazing*" comparisonMethod="mercury"/>
+    <rule groupId="com.adobe*" comparisonMethod="mercury"/>
+    <rule groupId="hamcrest-as3*" comparisonMethod="mercury"/>
+    <rule groupId="com.hazelcast*" comparisonMethod="mercury"/>
+    <rule groupId="NUnit*" comparisonMethod="mercury"/>
+    <rule groupId="NMock2*" comparisonMethod="mercury"/>
+    <rule groupId="com.google.jstestdriver*" comparisonMethod="mercury"/>
+  </rules>
+</ruleset>
