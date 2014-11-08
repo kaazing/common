@@ -18,11 +18,11 @@
     <name>Kaazing Common Environment</name>
     <packaging>pom</packaging>
 
-    <url>http://stash.kaazing.wan/scm/kgexport/common.git</url>
+    <url>git@github.com:kaazing/common.git</url>
     <scm>
-        <connection>scm:git:${project.scm.url}</connection>
-        <developerConnection>scm:git:${project.scm.url}</developerConnection>
-        <url>http://stash.kaazing.wan/scm/kgexport/common.git</url>
+        <connection>scm:git:${project.url}</connection>
+        <developerConnection>scm:git:${project.url}</developerConnection>
+        <url>${project.url}</url>
     </scm>
 
     <distributionManagement>
