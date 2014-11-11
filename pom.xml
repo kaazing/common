@@ -80,9 +80,9 @@
                 <version>1.2</version>
             </dependency>
             <dependency>
-                <groupId>com.kaazing</groupId>
-                <artifactId>com.kaazing.license</artifactId>
-                <version>${license.version}</version>
+                <groupId>org.kaazing</groupId>
+                <artifactId>community.license</artifactId>
+                <version>1.0</version>
                 <type>jar</type>
                 <scope>provided</scope>
             </dependency>
@@ -141,8 +141,8 @@
                                     <artifactItem>
                                         <!-- includes common copyright headers 
                                             for sources -->
-                                        <groupId>com.kaazing</groupId>
-                                        <artifactId>com.kaazing.license</artifactId>
+                                        <groupId>org.kaazing</groupId>
+                                        <artifactId>community.license</artifactId>
                                         <type>jar</type>
                                     </artifactItem>
                                 </artifactItems>
@@ -522,7 +522,6 @@
     <properties>
         <jmock.version>2.6.0</jmock.version>
 
-        <license.version>24</license.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <!-- <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding> -->
         <minimum.java.version>Java 6 (version 1.6.0_21)</minimum.java.version>
