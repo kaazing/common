@@ -478,7 +478,6 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <strict>false</strict>
                     <!-- Project hints go here -->
                     <projectHints>
                         <projectDescription>
