@@ -13,7 +13,7 @@
 
     <groupId>org.kaazing</groupId>
     <artifactId>common</artifactId>
-    <version>2.0.0.25</version>
+    <version>2.0.0.26</version>
 
     <name>Kaazing Common Environment</name>
     <packaging>pom</packaging>
@@ -24,6 +24,26 @@
         <developerConnection>scm:git:${project.url}</developerConnection>
         <url>${project.url}</url>
     </scm>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>Kaazing Corporation</name>
+    </organization>
+
+    <developers>
+        <developer>
+            <name>Kaazing Corporation</name>
+            <url>https://github.com/kaazing</url>
+            <organization>Kaazing Corporation</organization>
+            <organizationUrl>http://kaazing.org</organizationUrl>
+        </developer>
+    </developers>
 
     <distributionManagement>
         <downloadUrl>http://artifactory.kaazing.wan/artifactory/archiva-internal/</downloadUrl>
@@ -403,19 +423,9 @@
                     <groupId>org.codehaus.gmaven</groupId>
                     <artifactId>gmaven-plugin</artifactId>
                     <version>1.5</version>
-                    <!--
-                        <executions>
-                        <execution>
-                        <phase>initialize</phase>
-                        <goals>
-                        <goal>execute</goal>
-                        </goals>
-                        <configuration>
-                        <source>http://svn.kaazing.wan/tools.build/trunk/src/main/scripts/initialize.groovy</source>
-                        </configuration>
-                        </execution>
-                        </executions>
-                    -->
+                    <!-- <executions> <execution> <phase>initialize</phase> 
+                        <goals> <goal>execute</goal> </goals> <configuration> <source>http://svn.kaazing.wan/tools.build/trunk/src/main/scripts/initialize.groovy</source> 
+                        </configuration> </execution> </executions> -->
                 </plugin>
 
                 <plugin>
@@ -456,6 +466,31 @@
         </pluginManagement>
 
         <plugins>
+            <plugin>
+                <groupId>org.kaazing</groupId>
+                <artifactId>license-maven-plugin</artifactId>
+                <version>1.0.0.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>verify-notice</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <strict>false</strict>
+                    <!-- Project hints go here -->
+                    <projectHints>
+                        <projectDescription>
+                            <projectName>JDOM</projectName>
+                            <licenseName>JDOM License</licenseName>
+                            <licenseUrl>https://github.com/hunterhacker/jdom/blob/master/LICENSE.txt</licenseUrl>
+                            <homePage>http://jdom.org</homePage>
+                            <version>1.1</version>
+                        </projectDescription>
+                    </projectHints>
+                </configuration>
+            </plugin>
             <plugin>
                 <artifactId>maven-dependency-plugin</artifactId>
             </plugin>
