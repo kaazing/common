@@ -18,7 +18,7 @@
     <name>Kaazing Common Environment</name>
     <packaging>pom</packaging>
 
-    <url>git@github.com:kaazing/common.git</url>
+    <url>https://github.com/kaazing/common.git</url>
     <scm>
         <connection>scm:git:${project.url}</connection>
         <developerConnection>scm:git:${project.url}</developerConnection>
