@@ -534,7 +534,7 @@
                     </flowInitContext>
                     <pullMaster>true</pullMaster>
                     <pullDevelop>true</pullDevelop>
-                    <defaultOriginUrl>${project.scm.url}</defaultOriginUrl>
+                    <defaultOriginUrl>${project.scm.developerConnection}</defaultOriginUrl>
                     <pushReleases>true</pushReleases>
                 </configuration>
             </plugin>
