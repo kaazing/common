@@ -22,7 +22,7 @@
     <scm>
         <connection>scm:git:git@github.com:kaazing/common.git</connection>
         <developerConnection>${project.scm.connection}</developerConnection>
-        <url>${project.url}</url>
+        <url>git@github.com:kaazing/common.git</url>
     </scm>
 
     <licenses>
@@ -534,7 +534,7 @@
                     </flowInitContext>
                     <pullMaster>true</pullMaster>
                     <pullDevelop>true</pullDevelop>
-                    <defaultOriginUrl>${project.scm.developerConnection}</defaultOriginUrl>
+                    <defaultOriginUrl>${project.scm.url}</defaultOriginUrl>
                     <pushReleases>true</pushReleases>
                 </configuration>
             </plugin>
