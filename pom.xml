@@ -535,7 +535,7 @@
                     <pullMaster>true</pullMaster>
                     <pullDevelop>true</pullDevelop>
                     <defaultOriginUrl>${project.scm.url}</defaultOriginUrl>
-                    <pushReleases>true</pushReleases>
+                    <pushReleases>false</pushReleases>
                 </configuration>
             </plugin>
         </plugins>
