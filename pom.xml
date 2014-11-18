@@ -478,6 +478,7 @@
                     </execution>
                 </executions>
                 <configuration>
+                    <matchWithExisting>false</matchWithExisting>
                     <!-- Project hints go here -->
                     <projectHints>
                         <projectDescription>
