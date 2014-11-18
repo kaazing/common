@@ -535,18 +535,8 @@
                     <pullMaster>true</pullMaster>
                     <pullDevelop>true</pullDevelop>
                     <defaultOriginUrl>${project.scm.url}</defaultOriginUrl>
+                    <pushReleases>false</pushReleases>
                 </configuration>
-                <executions>
-                    <execution>
-                        <id>release-finish</id>
-                        <goals>
-                            <goal>release-finish</goal>
-                        </goals>
-                        <configuration>
-                            <pushReleases>true</pushReleases>
-                        </configuration>
-                    </execution>
-                </executions>
             </plugin>
         </plugins>
     </build>
