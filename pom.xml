@@ -13,7 +13,7 @@
 
     <groupId>org.kaazing</groupId>
     <artifactId>common</artifactId>
-    <version>2.0.0.37-SNAPSHOT</version>
+    <version>2.0.0.38-SNAPSHOT</version>
 
     <name>Kaazing Common Environment</name>
     <packaging>pom</packaging>
@@ -535,10 +535,10 @@
                     <pullMaster>true</pullMaster>
                     <pullDevelop>true</pullDevelop>
                     <defaultOriginUrl>${project.scm.url}</defaultOriginUrl>
-                    <pushReleases>false</pushReleases>
                 </configuration>
                 <executions>
                     <execution>
+                        <id>release-finish</id>
                         <goals>
                             <goal>release-finish</goal>
                         </goals>
