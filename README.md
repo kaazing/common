@@ -2,7 +2,7 @@
 
 # About this Project
 
-Project specifying AMQP 1.0 via K3P0 scripts
+This project defines the common set of pluginManagement and dependencyManagement for Kaazing Java Projects
 
 # Building this Project
 
