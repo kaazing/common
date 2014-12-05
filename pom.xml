@@ -15,7 +15,7 @@
     <version>2.1.0.0-SNAPSHOT</version>
 
     <name>Kaazing Common Environment</name>
-    <description>This project contains the management of maven plugins and dependencies used by other Kaazing Gateway Projects</description>
+    <description>This project manages a the common set of maven plugins and dependencies</description>
     <packaging>pom</packaging>
 
     <url>https://github.com/kaazing/common.git</url>
