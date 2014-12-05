@@ -2,7 +2,7 @@
 
 # About this Project
 
-This project defines the common set of pluginManagement and dependencyManagement for Kaazing Java Projects
+This project manages a the common set of maven plugins and dependencies
 
 # Building this Project
 
