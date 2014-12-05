@@ -124,7 +124,7 @@
                 <plugin>
                     <groupId>com.google.code.maven-license-plugin</groupId>
                     <artifactId>maven-license-plugin</artifactId>
-                    <version>1.3.2</version>
+                    <version>1.4.0</version>
                     <configuration>
                         <header>${project.build.directory}/dependency/COPYRIGHT</header>
                         <failIfMissing>true</failIfMissing>
@@ -412,7 +412,7 @@
             <plugin>
                 <groupId>org.kaazing</groupId>
                 <artifactId>license-maven-plugin</artifactId>
-                <version>1.0.0.4</version>
+                <version>1.0.0.11</version>
                 <executions>
                     <execution>
                         <goals>
@@ -421,6 +421,7 @@
                     </execution>
                 </executions>
                 <configuration>
+                    <matchWithExisting>false</matchWithExisting>
                     <!-- Project hints go here -->
                     <projectHints>
                         <projectDescription>
