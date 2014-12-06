@@ -22,7 +22,7 @@
     <scm>
         <connection>scm:git:git@github.com:kaazing/common.git</connection>
         <developerConnection>${project.scm.connection}</developerConnection>
-        <url>${project.url}</url>
+        <url>git@github.com:kaazing/common</url>
     </scm>
 
     <dependencyManagement>
