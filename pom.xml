@@ -29,7 +29,8 @@
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
-                <version>[4.10,5.0)</version>
+                <!-- Avoid using version range ("[4.10,5.0)") to work around http://jira.codehaus.org/browse/MVERSIONS-215  -->
+                <version>4.12</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
