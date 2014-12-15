@@ -251,7 +251,7 @@
                     <artifactId>versions-maven-plugin</artifactId>
                     <version>1.3.1</version>
                     <configuration>
-                        <rulesUri>https://github.com/kaazing/kaazing.github.io/blob/develop/build-resources/maven-version-rules.xml</rulesUri>
+                        <rulesUri>http://cache.kaazing.net/continuous-integration/maven-version-rules.xml</rulesUri>
                     </configuration>
                 </plugin>
 
