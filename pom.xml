@@ -11,7 +11,7 @@
     </parent>
 
     <artifactId>common</artifactId>
-    <version>2.1.0.4-SNAPSHOT</version>
+    <version>2.1.0.3</version>
 
     <name>Kaazing Common Environment</name>
     <description>Manages a the common set of maven plugins and dependencies</description>
