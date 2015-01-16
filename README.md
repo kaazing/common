@@ -1,5 +1,10 @@
 # common
 
+[![Build Status][build-status-image]][build-status]
+
+[build-status-image]: https://travis-ci.org/kaazing/common.svg?branch=develop
+[build-status]: https://travis-ci.org/kaazing/common
+
 # About this Project
 
 This project manages a the common set of maven plugins and dependencies
